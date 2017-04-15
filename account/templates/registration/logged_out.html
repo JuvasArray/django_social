@@ -3,9 +3,11 @@
 {% block content %}
 
 <div class="container">
+  <div class="jumborton">
     <div class="row">
       <h3>Logged out</h3>
-      <span aria-hidden="true">You have been successfully logged out. You can <a href="{% url "login" %}">log in again</a>.</span>
+      <p aria-hidden="true">You have been successfully logged out. You can <a href="{% url "login" %}">log in again</a>.</p>
+      </div>
     </div>
 </div>
 {% endblock %}
